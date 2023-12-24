@@ -7,6 +7,7 @@
     android:layout_height="match_parent">
 
     <TextView
+        style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
         android:id="@+id/text_seller"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,6 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text_seller" />
 
     <TextView
+        style="@style/TextContent.BodyMedium.Gray"
         android:id="@+id/profile_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -43,6 +45,7 @@
         app:layout_constraintTop_toTopOf="@+id/profile_image" />
 
     <Button
+        style="@style/ButtonGeneral.SecondaryVariant"
         android:id="@+id/button_buy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
